@@ -1,0 +1,27 @@
+.ImageList { 
+    display:flex;
+    justify-content:center;
+ }
+ 
+ .ImageList li {
+     display:flex;
+     list-style-type:none;
+ margin-right:3rem;    
+
+  }
+
+  .Button {
+    display: flex;
+    background: transparent;
+    outline: none;
+    border: 2.5px solid #2680EB;
+    color: #2680EB;
+    font-weight: bold;
+    font-size:20px;
+}
+
+.ButtonWrapper {
+    display: flex;
+    margin: 2rem auto;
+    justify-content: center;
+}

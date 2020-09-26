@@ -1,0 +1,7 @@
+.SocialIcons {
+    margin: 5px;
+  }
+
+  a:not(:last-child) {
+      margin-right:10px;
+  }

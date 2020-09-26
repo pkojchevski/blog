@@ -1,0 +1,133 @@
+.SectionFirst {
+    max-width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    position:relative;
+    background-repeat:no-repeat;
+}
+
+.Text {
+    position:absolute;
+    left:5rem;
+    bottom: 2rem;
+}
+
+.Title {
+    font-size:3rem;
+    width:677px;
+    font-weight: bold;
+    text-transform:uppercase;
+    color:#ffff;
+    text-shadow: 0px 3px 6px #000000;
+}
+
+.TitleButton {
+    color:#F5F5F5;
+    background:transparent;
+    /* outline: none; */
+    border: 2px solid #F5F5F5;
+    font-size: 2rem;
+    border-radius: 4px;
+    padding: 5px;
+    text-transform: uppercase;
+    transition:all 0.3s;
+}
+
+.TitleButton:hover {
+    /* font-size: 2rem;
+    border-radius: 4px;
+    padding: 5px; */
+    background: #257397;
+    border: 2px solid #257397;
+    text-transform: capitalize;
+    color: white;
+
+}
+
+.TitleButton:focus {
+    outline: none;
+}
+
+/* .read-more-button:hover {
+    background: #257397;
+    border: 2px solid #257397;
+    border-radius: 4px;
+    padding: 5px;
+    width: 100px;
+    text-transform: capitalize;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+  .read-more-button:focus {
+    outline: none;
+  } */
+
+.SectionSecond{
+    margin:2rem;
+}
+
+
+
+ .WorldMap {
+    background-image:url('../../../assets/images/worldmap.png');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -280px;
+    opacity: 0.46;
+    top:-10%;
+ }
+
+
+
+
+
+.FT2Wrapper {
+    background-color:#E4E4E4;
+    /* width:100%; */
+    height: 62rem;
+    position: relative;
+}
+
+.FT2Image{
+    width: 60%;
+    margin: auto;
+    padding-top: 0.5rem;
+    display: block;
+}
+
+.Background {
+    width: 60%;
+    height: 8rem;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    background: rgba(255, 255, 255,0.4);
+    margin: auto;
+}
+
+.ImageWrapper {
+    width:inherit;
+    position:relative;
+}
+
+.FT2Images {
+    width:80%;
+    display:flex;
+    justify-content: space-around;
+    margin: -5.6rem auto;
+    position: relative;
+    z-index: 2;
+}
+
+.FT2SingleImage {
+    width:13rem;
+    height:15rem;
+    z-index: 10;
+}
+
+

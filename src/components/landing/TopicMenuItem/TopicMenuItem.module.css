@@ -1,0 +1,17 @@
+.TopicMenuItem {
+  text-transform: uppercase;
+  color: #063435;
+  font-size: 28px;
+  padding: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.Text1 {
+  letter-spacing: 5px;
+}
+
+.Text2 {
+  margin-left: 5px;
+  letter-spacing: 5px;
+}

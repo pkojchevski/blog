@@ -1,0 +1,18 @@
+.TitleLine {
+    margin:3.5rem 0;
+}
+
+.Title {
+    color: #2684AD;
+    background: #ffff;
+    display: inline;
+    z-index: 1;
+    padding: 0 10px;
+    font-weight: bold;
+ }
+
+.Line {
+    border-top:2px solid #2684AD;
+    margin-top:-12px;
+    z-index:-1;
+}

@@ -1,0 +1,113 @@
+.modal-custom {
+  font-size: 12px;
+}
+.modal-custom > .header-custom {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  text-align: center;
+  padding: 5px;
+  color: #fff;
+}
+.modal-custom > .content-custom {
+  width: 100%;
+  padding: 10px 5px;
+  color: #000;
+}
+.modal-custom > .actions-custom {
+  width: 100%;
+  padding: 10px 5px;
+  margin: auto;
+  text-align: center;
+  color: #000;
+}
+.modal-custom > .close-custom {
+  color: #000;
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px;
+  line-height: 20px;
+  right: -10px;
+  top: -10px;
+  font-size: 24px;
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #cfcece;
+}
+
+.popup-content {
+	width: 35% !important;
+	padding: 35px !important;
+	background-image: url(../../assets/images/bg.jfif) !important;
+	background-size: cover !important;
+}
+
+.button-subscribe, .button-subscribe:hover {
+	background: #000;
+    color: #fff;
+}
+
+.single-custom-content img {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+figcaption.wp-caption-text {
+  text-align: center !important;
+}
+
+/* all small post date bottom section */
+.LatestPostImage_Date__3skiD, .LatestPostImage_Date__3aLzJ {
+  float: none;
+}
+.LatestPostImage_CardFooter__2PvhX, .LatestPostImage_CardFooter__3Y6dL {
+  display: block;
+  text-align: center;
+}
+p.LatestPostImage_Team__3U6BD, p.LatestPostImage_Team__3IPn4 {
+  display: none;
+}
+
+/* homepage four images section removed */
+.OPRImages_Images__17eiJ {
+  display: none !important;
+}
+
+.single-custom-content h3 {
+	font-size:30px !important;
+	text-align:center !important;
+}
+
+
+
+.container.single-custom-content * {
+    padding: 10px 0px !important;
+	text-align: justify;
+}
+
+figure.aligncenter {
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* .single-custom-content img {
+    display: block;
+    margin: 15px;
+	width: 49%;
+}
+
+.ViewPost_PostImage1__39X4G img {
+    height: 500px !important;
+}
+
+.single-custom-content .row span {
+    width: 50% !important;
+    float: left;
+    text-align: justify;
+    padding: 5px;
+}
+.single-custom-content h5 {
+    font-size: 18px !important;
+} */
+

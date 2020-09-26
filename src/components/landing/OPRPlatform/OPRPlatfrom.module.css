@@ -1,0 +1,79 @@
+.OPRPlatform {
+    width:95%;
+    height:30rem;
+margin:auto;
+display:flex;
+align-items:center;
+position:relative;
+}
+
+.OPRPlatformImage {
+    background-image: linear-gradient(to right, rgba(33, 33, 33, 0.3),rgba(33, 33, 33, 0.3)), url('../../../assets/images/OPR\ section\ bg.png');
+    width:inherit;
+    height:inherit;
+    background-size:cover;
+    /* filter: blur(9px); */
+}
+
+
+.TextWrapper {
+    position: absolute;
+    top: 7.5rem;
+    left: 23rem;
+    width: 10rem;
+    color: #fff;
+   
+} 
+
+.TextHeader {
+    font-weight: bolder; 
+    font-size:40px;
+    font-family: Franklin Gothic;
+    width:250px;
+    text-align:center;
+}
+
+.TextHeader span {
+    display:table;
+    margin: auto;
+}
+
+.TextParagraph {
+    width: 250px;
+    text-align: center;
+    margin: 0;
+}
+
+.Images {
+   background-image:linear-gradient(to right, rgba(9,8,8,0.28), rgba(9,8,8,0.28)),url('../../../assets/images/fbg.png');
+   background-size:cover;
+   border: 1px solid #707070;
+   position:absolute;
+   top: -2rem;
+   right: 3.5rem;
+   width: 25rem;
+   height: 32rem;
+}
+
+.LogoBg {
+    width: 15rem;
+    position: absolute;
+    top: 7.5rem;
+    left: 1rem;
+    z-index: 10;
+}
+
+
+.Button {
+    background: #2684AD;
+border-radius: 38px;
+font-weight: bold;
+font-size: 24px;
+letter-spacing: 0px;
+color: #FFFFFF;
+outline:none;
+border:none;
+padding: 5px 70px;
+    margin-top: 1rem;
+    width:15rem;
+}

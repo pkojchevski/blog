@@ -1,0 +1,24 @@
+
+
+.ImageWrapper {
+    position:relative;
+    cursor:pointer;
+}
+
+.Image {
+    width:25rem;
+    height:27rem;
+    background-size:cover;
+}
+
+.Title {
+    position: absolute;
+    text-transform: uppercase;
+    color: #fff;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%);
+    font-weight: bolder;
+    font-family: Franklin Gothic;
+    font-size: 39px;
+}

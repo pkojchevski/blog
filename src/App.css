@@ -1,0 +1,250 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.cultural-topic-image {
+  width: 100%;
+  height: 300px;
+}
+@media only screen and (min-width: 300px) and (max-width: 700px) {
+  .cultural-topic-image {
+    width: 100%;
+  }
+}
+
+.social-transparent-title {
+  font-size: 5em;
+  font-weight: 700;
+  text-transform: uppercase;
+  -webkit-text-stroke: 2px whitesmoke;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  margin-top: -60px;
+  background: url("../topics/photos/storehousetown.jpg");
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-size: contain;
+}
+@media only screen and (min-width: 300px) and (max-width: 700px) {
+  .social-transparent-title {
+    font-size: 2em;
+    margin-top: -70px;
+  }
+}
+
+.cultural-transparent-title {
+  font-size: 5em;
+  font-weight: 700;
+  text-transform: uppercase;
+  -webkit-text-stroke: 2px whitesmoke;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  margin-top: -60px;
+  background: url("../topics/photos/sunrise.jpg");
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-size: contain;
+}
+@media only screen and (min-width: 300px) and (max-width: 700px) {
+  .cultural-transparent-title {
+    font-size: 2em;
+    margin-top: -70px;
+  }
+}
+
+.environmental-transparent-title {
+  font-size: 5em;
+  font-weight: 700;
+  text-transform: uppercase;
+  -webkit-text-stroke: 2px whitesmoke;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  margin-top: -60px;
+  background: url("../topics/photos/maldives.jpg");
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-size: contain;
+}
+@media only screen and (min-width: 300px) and (max-width: 700px) {
+  .environmental-transparent-title {
+    font-size: 2em;
+    margin-top: -70px;
+  }
+}
+
+.transparent-title {
+  font-size: 5em;
+  font-weight: 700;
+  text-transform: uppercase;
+  -webkit-text-stroke: 2px whitesmoke;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  margin-top: -120px;
+}
+@media only screen and (min-width: 300px) and (max-width: 700px) {
+  .transparent-title {
+    font-size: 2em;
+    margin-top: -70px;
+  }
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 700px) {
+  .button-group {
+    display: block;
+    margin-left: 50px;
+  }
+}
+
+.categ-buttons:hover {
+  background: #3bb2e9;
+}
+.categ-buttons {
+  background: #257397;
+  color: white;
+  text-transform: capitalize;
+  border-radius: 20px;
+  border: none;
+  margin: 5px;
+  width: 150px;
+  font-size: 12px;
+  padding: 4px;
+}
+.categ-buttons:focus {
+  outline: none;
+}
+
+.energy-container {
+  height: auto;
+  width: 85%;
+  margin: 20px auto;
+  padding: 0;
+}
+.cultural-categ-container {
+  width: 100%;
+  height: 200px;
+  margin-top: 30px;
+  padding: 0;
+  -webkit-box-shadow: 0px 0px 7px 0px rgba(136, 136, 136, 0.527);
+  -moz-box-shadow: 0px 0px 7px 0px rgba(136, 136, 136, 0.527);
+  box-shadow: 0px 0px 7px 0px rgba(136, 136, 136, 0.527);
+  border-radius: 4px;
+}
+.energy-grid-image {
+  width: 100% !important;
+  height: 130px !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.energy-tag {
+  position: absolute;
+  font-size: 11px;
+  background: white;
+  padding: 2px;
+  text-align: center;
+  bottom: 30%;
+  width: 80px;
+  height: 20px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.energy-topic {
+  font-size: 11px;
+  font-weight: bold;
+  padding: 5px;
+  height: 45px;
+}
+
+.energy-team-date {
+  display: flex;
+  font-size: 9px;
+  margin-top: 5px;
+}
+
+.energy-team {
+  position: absolute;
+  left: 7%;
+  color: #257397;
+}
+.energy-date {
+  position: absolute;
+  right: 8%;
+}
+
+.read-more-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.read-more-button {
+  background: white;
+  border: 2px solid #257397;
+  border-radius: 4px;
+  padding: 5px;
+  width: 100px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  color: #257397;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.read-more-button:hover {
+  background: #257397;
+  border: 2px solid #257397;
+  border-radius: 4px;
+  padding: 5px;
+  width: 100px;
+  text-transform: capitalize;
+  color: white;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.read-more-button:focus {
+  outline: none;
+}

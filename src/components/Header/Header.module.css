@@ -1,0 +1,177 @@
+.Header {
+  position: absolute;
+  color: #054d55;
+  font-size: 18px;
+  width: 100%;
+  background-color: transparent;
+  z-index: 1;
+}
+
+.Play {
+  margin-top: -5px;
+  font-size: 28px;
+}
+
+.Toggle {
+  color: "#054D55"; margin-left: "1rem";
+}
+
+.Navbartext {
+  margin-left: 1rem;
+  top: -2px;
+  font-family: Roboto;
+  font-weight: bold;
+  position: relative;
+  color: #054d55 !important;
+  font-size:15px;
+}
+
+.Navbartext:hover {
+  text-decoration: none !important;
+}
+
+.Navbartext::before {
+  content: "";
+  width: 28px;
+  background-color: #054d55;
+  height: 2px;
+  position: absolute;
+  bottom: 0px;
+}
+
+.Social-Icons {
+  color: #024345;
+  font-size: 12px;
+  margin: 5px;
+}
+
+.Drop {
+  width: 100vw;
+height:4em;
+  transform: translate(-50%);
+  position: absolute;
+  left: 50%;
+  top: 0rem;
+  opacity: 0.86;
+  z-index: -1;
+}
+
+.Headerdrop {
+  width: 100%;
+}
+
+button:focus {
+  outline:none !important;
+}
+
+.Logo {
+  width: 5.5rem;
+  position: absolute;
+  left: 48.8%;
+  transform: translate(-50%, 50%);
+  top: 0;
+  cursor: pointer;
+}
+
+
+.TopicMenuItem{  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.imgEnvironmental {  
+  width:90%;
+}
+
+.imgSocial {  
+   width:95%;
+}
+
+.imgCultural {
+  width:105%;
+}
+
+
+.Text1 {
+  letter-spacing: 5px;
+}
+
+.Text2 {
+  margin-left: 5px;
+  letter-spacing: 5px;
+}
+
+.MenuTitle {
+  color:#054D55;
+  font-size:15px;
+  font-weight:bold;
+  font-family:'Roboto';
+  padding: 1px 0px 1px 7px;
+}
+
+.MenuTitleOpen {
+  background: #2684ad;
+  color: #fff;
+  border-radius: 17px;
+  padding:1px 0px 1px 7px;
+  font-size:15px;
+  font-weight:bold;
+  font-family:'Roboto';
+}
+
+.DestinationsMenuItem {
+  text-transform: uppercase;
+  color: rgba(5,77,85);
+  text-transform: uppercase;
+  /* padding: 1rem; */
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  transition:all 0.2s;
+  padding: 1.25rem 2.5rem
+}
+
+
+.TopicMenuItem:hover,
+.DestinationsMenuItem:hover {
+  /* background: rgba(0, 0, 0, 0.3); */
+  /* background:rgba(5,77,85, 0.7); */
+  background:rgba(38,132,173, 0.6);
+  color:#fff;
+}
+
+a:hover {
+  text-decoration:none;
+}
+
+
+
+
+.Center {
+  left: 50%;
+    transform: translate(-50%);
+}
+
+.DestinationsText {
+  opacity: 80%;
+  font-size: 24px;
+  letter-spacing: 2px;
+  margin: 0;
+  padding: 0;
+}
+
+
+@media only screen and (max-width: 1150px) {
+.Logo {
+  width:4rem;
+}
+.Toggle {margin-left:2rem}
+
+.Move {
+  top: -10px;
+}
+}

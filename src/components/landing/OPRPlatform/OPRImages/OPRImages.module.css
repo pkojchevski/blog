@@ -1,0 +1,19 @@
+.Images {
+    background-image:url('../../../../assets/images/fbg.png');
+    background-size:cover;
+    border: 1px solid #707070;
+    background-color: rgba(9,8,8,0.28); 
+    position:absolute;
+    top: -2rem;
+    right: 7rem;
+    width: 25rem;
+    height: 34rem;
+ }
+
+ .ImagesWrapper {
+margin:1.5rem;
+display:grid;
+grid-template-columns: 1fr 1fr;  grid-row: auto auto;
+grid-column-gap: 20px;
+grid-row-gap: 20px;
+ }
