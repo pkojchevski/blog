@@ -128,7 +128,7 @@ const [backgroundFeature, setBackgroundFeature] = useState({});
           <OPRPLatform />
         </section>
 
-        <section className={classes.FeaturedTopic2} style={{height:'1050px'}}>
+        <section className={classes.FeaturedTopic2}>
           <TitleLine margin="38rem" title="Featured Topics" />
           <div className={classes.FT2Wrapper}>
             <div className={classes.ImageWrapper}>
